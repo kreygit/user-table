@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <!-- <TestReload /> -->
     <UserTable />
   </div>
 </template>
 
 <script>
 import UserTable from './components/UserTable'
+import TestReload from './components/TestReload'
 
 export default {
   name: 'app',
   components: {
-    UserTable
+    UserTable,
+    TestReload
   }
 }
 </script>
